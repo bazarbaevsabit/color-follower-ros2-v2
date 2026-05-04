@@ -4,7 +4,7 @@
   <name>mobile_world</name>
   <version>0.0.1</version>
   <description>World files and launch for the color follower environment</description>
-  <maintainer email="you@example.com">Your Name</maintainer>
+  <maintainer email="bazarbaevsabit@gmail.com">Your Name</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

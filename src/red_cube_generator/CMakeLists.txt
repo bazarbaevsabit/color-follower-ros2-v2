@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(world_generator)
+project(red_cube_generator)
 
 find_package(ament_cmake REQUIRED)
 

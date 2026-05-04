@@ -6,7 +6,7 @@ from launch.actions import ExecuteProcess
 from launch.substitutions import PathJoinSubstitution
 
 def generate_launch_description():
-    pkg_share = get_package_share_directory('world_generator')
+    pkg_share = get_package_share_directory('red_cube_generator')
     sdf_path = PathJoinSubstitution([pkg_share, 'worlds', 'red_cube.sdf'])
 
     # Случайные координаты

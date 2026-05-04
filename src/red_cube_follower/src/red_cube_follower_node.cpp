@@ -86,7 +86,7 @@ private:
         }
       }
 
-      if (max_area < 500)
+      if (max_area < 50)
       {
         // Слишком маленький контур — продолжаем поиск
         cmd.linear.x = 0.0;
