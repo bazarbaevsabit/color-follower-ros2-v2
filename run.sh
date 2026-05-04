@@ -8,7 +8,7 @@ docker run -it --rm \
     -e DISPLAY=$DISPLAY \
     -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR \
     -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-    -v /home/ros2/worlds_and_robots/src:/home/work \
+    -v /home/user/color-follower-ros2-v2/src:/home/work \
     --device /dev/dri:/dev/dri \
     --name gazebo_test \
     ros2_full:v1 \

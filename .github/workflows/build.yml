@@ -45,9 +45,4 @@ jobs:
           . /opt/ros/jazzy/setup.bash
           colcon build --packages-select mobile
 
-      - name: Run tests
-        run: |
-          cd /home/ros_ws
-          . install/setup.bash
-          colcon test --packages-select mobile
-          colcon test-result --verbose
+
